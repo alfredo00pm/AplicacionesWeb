@@ -1,25 +1,44 @@
-body{
-    background-color: #4a4747;
-    font-size: 2em;
+body {
+    background-color: #f6fffc;
+    font-size: 2em; /* Nota: 2em es un tamaño de letra muy grande, ideal para un foro tipo letrero */
     font-family: Arial, sans-serif;
-   
+}
+header {
+    background-color: #7b798b;
+    padding: 10px;
+    text-align: center; /* Para centrar el texto del título */
 }
 
-header{
-    background-color: #3b15d6;
-}
-h1{
+h1 {
     color: #200505;
-    background-color: #450e0e;
+    background-color: #081a81;
     font-size: 2em;
     font-family: "Betania Patmos", cursive;
     font-weight: 600;
     font-style: normal;
+    margin-top: 0;
 }
-h2{
+h2 {
     color: #0c0b0b;
     font-size: 1em;
     font-family: "Betania Patmos", cursive;
     font-weight: 600;
     font-style: normal;
+}
+.contenedor-avisos {
+    padding: 20px;
+}
+.aviso {
+    background-color: #46643e; /* Un gris claro para que resalte sobre tu fondo oscuro */
+    border: 3px solid #000000; /* Un borde negro simple */
+    margin-bottom: 20px;       /* Espacio entre cada aviso */
+    padding: 15px;             /* Espacio interno para que el texto no pegue en el borde */
+}
+
+.aviso p {
+    font-size: 0.6em; /* Hice la letra de los párrafos un poco más chica para que contraste con los títulos */
+    color: #333333;
+}
+.aviso ul {
+    font-size: 0.6em;
 }
